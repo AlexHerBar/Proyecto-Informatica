@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<meta charset="UTF-8">
+	<title>Juego</title>
+</head>
+<body>
+
+	<div id="game-wrapper" class="hiddenc">
+		<canvas id="drawingCanvas" height="620px"></canvas>
+		<div class="info">
+			
+		</div>
+		<div class="wrapper">
+			<ul id="chat">
+			</ul>
+			<form action=""> 
+				<input type="text" id="mtext" placeholder="Mensaje ...">
+			</form>
+		</div>
+
+		<ul id="players">
+			<li>Jugadores:</li>
+		</ul>
+
+		<div id="pnamediv">
+			Nombre del Jugador: 
+		</div>
+
+		<div id="turn"></div>
+		<div id="round"></div>
+	</div>
+
+	<div id="waiting-screen">
+		<h1></h1>
+		<h3>¡ESPERA A QUE LLEGUEN LOS DEMÁS JUGADORES!</h3>
+		<img src="http://reactiongifs.me/wp-content/uploads/2013/08/at-work-cookie-monster.gif" alt="waiting-for-players">
+	</div>
+	
+	<div id="winner-screen" class="hiddenc">
+		<h1></h1>
+		<h3>¡GRACIAS POR JUGAR!</h3>
+		<img src="http://i.imgur.com/vIf0lAD.gif?noredirect" alt="winner-for-players">
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/3.5.3/firebase.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>

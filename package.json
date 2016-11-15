@@ -1,0 +1,9 @@
+{
+   "name": "Proj-Informatica",
+   "description": "Proyecto para informatica",
+   "author": "Heredroky",
+   "dependencies" : {
+      "express": "4.x",
+      "socket.io": "*"
+   }
+}

@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box; }
+
+html, body {
+  width: 100%; }
+
+canvas {
+  background-color: white;
+  border: 1px solid #c4c4c4;
+  float: left; }
+
+.info {
+  background-color: gray;
+  width: 150px;
+  padding: 2px;
+  color: white;
+  position: absolute;
+  left: 0px;
+  top: 472px; }
+  .info p {
+    text-align: center; }
+
+.wrapper {
+  position: absolute;
+  right: 0;
+  width: 30%;
+  padding: 20px;
+  margin: 10px auto; }
+  .wrapper #chat {
+    background-color: #f5f5f2;
+    width: 100%;
+    height: 550px;
+    margin: 0;
+    list-style: none;
+    border: 1px solid #c4c4c4;
+    padding: 0;
+    overflow: hidden;
+    overflow-y: scroll; }
+    .wrapper #chat li {
+      color: #666;
+      padding: 10px 20px; }
+    .wrapper #chat li:nth-child(even) {
+      background-color: #fafafa; }
+  .wrapper #mtext {
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    padding-left: 5px;
+    margin-top: 5px; }
+
+#pnamediv {
+  position: absolute;
+  width: 27%;
+  background-color: gray;
+  margin-right: 19px;
+  text-align: center;
+  right: 0;
+  height: 30px;
+  top: 0;
+  color: white;
+  font-size: 18px; }
+
+#players {
+  position: absolute;
+  left: 0;
+  top: 540px;
+  list-style: none;
+  background: #c4c4c4;
+  padding: 20px 80px;
+  margin-left: 70; }
+  #players li {
+    float: left;
+    margin-left: 20px;
+    width: 100px;
+    background: gray;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+#players + li {
+  background-color: #c4c4c4; }
+
+#waiting-screen {
+  background-color: gray;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 200px;
+  color: white; }
+
+.hiddenc {
+  display: none; }
+
+/*# sourceMappingURL=styles.css.map */
